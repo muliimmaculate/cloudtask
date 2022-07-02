@@ -379,6 +379,7 @@ input[type="password"]::-ms-input-placeholder {
     color: #847577; 
 } 
 
+
 /* === 01 Main Homepage === */
 
 /* === Main Header === */
@@ -5783,130 +5784,6 @@ span.right-cm {
     margin-bottom: 0;
 }
 
-
-/* === Pricing Plans Page === */
-
-.all_plans {
-	margin-top: 21px;
-}
-
-.plans150 {
-    margin-top: 20px;
-}
-
-.plan_item {
-    width: 100%;
-    background: #fff;
-    margin-top: 30px;
-	border: 1px solid #e5e5e5;
-	text-align: center;
-	float: left;
-    width: 100%;
-}
-
-.plan_icon {
-    padding: 30px 0;
-}
-
-.plan_icon i {
-	background: #f3f3f3;
-	height: 100px;
-	width: 100px;
-	border: 1px solid #e5e5e5;
-	border-radius: 100%;
-	font-size: 40px;
-	color: #ff0000;
-	padding: 29px 0;
-}
-
-.plan_item h4 {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    color: #242424;
-    line-height: 24px;
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.plan_price {
-    margin-bottom: 0;
-    background: #f3f3f3;
-    padding: 20px 10px;
-	float: left;
-    width: 100%;
-}
-
-.plan_price span {
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    color: #242424;
-}
-
-.plan_price ins {
-	font-size: 14px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    color: #757575;
-	text-decoration: none;
-}
-
-.plan_price ins::before {
-	content: '/';
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
-.plan_dt {
-    padding: 25px 20px;
-	float: left;
-    width: 100%;
-}
-
-.plan_dt li {
-    display: block;
-	margin-bottom: 5px;
-}
-
-.plan_dt li:last-child {
-	margin-bottom: 0;
-}
-
-.plan_dt p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #757575;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-}
-
-.plan_btn {
-    float: left;
-    width: 100%;
-    padding: 0 30px 30px;
-}
-
-.plan_btn a {
-    float: left;
-    width: 100%;
-    height: 50px;
-    background: #ff0000;
-    border-radius: 3px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    padding: 15px 0;
-}
-
-.plan_btn a:hover {
-    background: #242424;
-    color: #fff !important;
-}
 
 .statement_header {
     float: left;
