@@ -23,7 +23,7 @@ const firebaseConfig = {
   
     var email = document.getElementById("inputEmail");
     var password = document.getElementById("inputPassword");
-    var cpassword = document.getElementById("inputcpassword");
+    var cpassword = document.getElementById("inputCpassword");
   
     auth
       .createUserWithEmailAndPassword(email.value, password.value)
@@ -58,7 +58,7 @@ const firebaseConfig = {
         // Signed in
         var user = userCredential.user;
         console.log("user", user.email);
-        window.location = "manager.html";
+        window.location = "client.html";
       })
       .catch((error) => {
         var errorCode = error.code;
